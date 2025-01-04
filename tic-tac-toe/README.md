@@ -10,8 +10,6 @@ This project is based on the `Tic-Tac-Toe` template.
 
 ## Tic-Tac-Toe
 
-## Tic-Tac-Toe
-
 This example contains a simple Tic-Tac-Toe game. The game is played on a 3x3
 grid, where two players take turns to place their marks. The first player to get
 three of their marks in a straight line wins the game. You know the rules!

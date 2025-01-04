@@ -10,8 +10,6 @@ This project is based on the `Crypto Dashboard` template.
 
 ## Crypto Dashboard
 
-## Crypto Dashboard
-
 This example shows off a simple interactive Dashboard, which allows you to view
 the balance of a cryptocurrency wallet, the details of a cryptocurrency, and a
 chart of the price of a cryptocurrency.

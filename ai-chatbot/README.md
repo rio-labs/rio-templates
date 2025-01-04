@@ -10,8 +10,6 @@ This project is based on the `AI Chatbot` template.
 
 ## AI Chatbot
 
-## AI Chatbot
-
 This example shows off a simple AI-Chat, which you can use to talk to OpenAI's
 GPT series of models.
 

@@ -10,8 +10,6 @@ This project is based on the `Todo App` template.
 
 ## Todo App
 
-## Todo App
-
 This example shows off a simple Todo app which allows you to create tasks that
 can later be marked as completed.
 
