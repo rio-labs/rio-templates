@@ -4,14 +4,14 @@ This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
 _Ai chatbot_ was created using [Rio](https://rio.dev/), an easy to
-use app & website framework for Python._
+use app & website framework for Python.
 
 This project is based on the `AI Chatbot` template.
 
 ## AI Chatbot
 
 This example shows off a simple AI-Chat, which you can use to talk to OpenAI's
-GPT series of models.
+large language models.
 
 **This example requires an OpenAI API key to function.**
 
@@ -27,14 +27,14 @@ to a conversation view.
 A progress circle indicates to the user when the bot is busy generating a
 response.
 
-## Lessons
+## Lessons 🎓
 
 In this example you can see how to:
 
--   Interact with an external API
--   Make components communicate via custom events
+- Interact with an external API
+- Make components communicate via custom events
 
-## Components
+## Components 🧩
 
 This project contains 5 components:
 

@@ -4,7 +4,7 @@ This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
 _Multipage website_ was created using [Rio](https://rio.dev/), an easy to
-use app & website framework for Python._
+use app & website framework for Python.
 
 This project is based on the `Multipage Website` template.
 
@@ -13,6 +13,8 @@ This project is based on the `Multipage Website` template.
 This is a simple website which shows off how to add multiple pages to your Rio
 app. The website comes with a custom navbar that allows you to switch between
 the different pages.
+
+## Outline 📝
 
 The navbar is placed inside a `rio.Overlay` component, which makes it hover
 above all other components. It contains buttons to switch between pages, and

@@ -4,7 +4,7 @@ This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
 _Tic-tac-toe_ was created using [Rio](https://rio.dev/), an easy to
-use app & website framework for Python._
+use app & website framework for Python.
 
 This project is based on the `Tic-Tac-Toe` template.
 
@@ -19,14 +19,14 @@ When a player clicks on a button, the corresponding cell is marked with their
 symbol. The game checks for a winner after each move and displays a message when
 the game is over.
 
-## Lessons
+## Lessons 🎓
 
 In this example you can see how to:
 
--   Create and use custom components
--   Make components communicate via custom events
+- Create and use custom components
+- Make components communicate via custom events
 
-## Components
+## Components 🧩
 
 This example only consists of two components:
 

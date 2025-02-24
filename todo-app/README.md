@@ -4,7 +4,7 @@ This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
 _Todo app_ was created using [Rio](https://rio.dev/), an easy to
-use app & website framework for Python._
+use app & website framework for Python.
 
 This project is based on the `Todo App` template.
 
@@ -13,14 +13,14 @@ This project is based on the `Todo App` template.
 This example shows off a simple Todo app which allows you to create tasks that
 can later be marked as completed.
 
-## Lessons
+## Lessons 🎓
 
 In this example you can see how to:
 
--   Persistently save data across sessions
--   Make components communicate via custom events
+- Persistently save data across sessions
+- Make components communicate via custom events
 
-## Components
+## Components 🧩
 
 The example is composed of 3 main components:
 

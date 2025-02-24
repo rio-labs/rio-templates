@@ -4,7 +4,7 @@ This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
 _Authentication_ was created using [Rio](https://rio.dev/), an easy to
-use app & website framework for Python._
+use app & website framework for Python.
 
 This project is based on the `Authentication` template.
 
@@ -14,7 +14,7 @@ This template demonstrates how to implement user authentication in your app. It
 uses SQLite to store user data, but you are of course free to replace it with
 whichever persistence mechanism you prefer.
 
-## Outline
+## Outline 📝
 
 All database access is done using a `Persistence` class. This abstracts away the
 database operations and makes it easy to switch to a different database if

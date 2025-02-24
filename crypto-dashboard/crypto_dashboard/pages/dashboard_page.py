@@ -2,15 +2,10 @@ from __future__ import annotations
 
 import typing as t
 from dataclasses import KW_ONLY, field
-from pathlib import Path
 
-import numpy as np
-import pandas as pd
 import rio
-from pycoingecko import CoinGeckoAPI
 
 from .. import components as comps
-from .. import data_models
 
 
 @rio.page(

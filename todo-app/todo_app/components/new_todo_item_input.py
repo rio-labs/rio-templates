@@ -7,7 +7,6 @@ from dataclasses import KW_ONLY, field
 import rio
 
 from .. import components as comps
-from ..data_models import TodoItem
 
 
 class NewTodoItemInput(rio.Component):
