@@ -56,10 +56,11 @@ class EmptyChatPlaceholder(rio.Component):
             rio.Text(
                 "Ask a free-form question and AI will help you on your journey",
                 justify="center",
+                font_size=1.2,
                 margin_top=1,
             ),
             # Give the user an opportunity to enter a custom question
-            rio.Row(
+            rio.Stack(
                 rio.MultiLineTextInput(
                     label="Ask something...",
                     text=self.bind().user_message_text,
@@ -70,8 +71,9 @@ class EmptyChatPlaceholder(rio.Component):
                 rio.IconButton(
                     "material/navigate_next",
                     on_press=self.on_text_input_confirm,
+                    align_x=1,
+                    margin_right=1,
                 ),
-                spacing=1,
                 margin_top=1,
             ),
             # And also give suggestions for them to start with

@@ -18,7 +18,7 @@ from . import data_models
 theme = rio.Theme.from_colors(
     primary_color=rio.Color.from_hex("01dffdff"),
     secondary_color=rio.Color.from_hex("0083ffff"),
-    mode="light",
+    mode="dark",
 )
 
 

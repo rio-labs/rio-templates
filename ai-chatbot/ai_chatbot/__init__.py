@@ -26,7 +26,7 @@ Make sure to enter your key into the `__init__.py` file before trying to run the
     raise RuntimeError(message)
 
 
-def on_app_start(app: rio.App):
+def on_app_start(app: rio.App) -> None:
     # Create the OpenAI client and attach it to the app
     app.default_attachments.append(openai.AsyncOpenAI(api_key=OPENAI_API_KEY))
 
@@ -44,7 +44,7 @@ def on_app_start(app: rio.App):
 theme = rio.Theme.from_colors(
     primary_color=rio.Color.from_hex("01dffdff"),
     secondary_color=rio.Color.from_hex("0083ffff"),
-    mode="light",
+    mode="dark",
 )
 
 
