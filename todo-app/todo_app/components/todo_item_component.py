@@ -6,7 +6,7 @@ from dataclasses import KW_ONLY, field
 import rio
 
 from .. import components as comps
-from ..data_models import TodoItem
+from .. import data_models
 
 ICON_BUTTON_SIZE = 2.5
 
@@ -19,7 +19,7 @@ class TodoItemComponent(rio.Component):
     completed, and a button that deletes it.
     """
 
-    todo_item: TodoItem
+    todo_item: data_models.TodoItem
     on_completed: rio.EventHandler[[]] = None
     on_deleted: rio.EventHandler[[]] = None
 
@@ -48,24 +48,29 @@ class TodoItemComponent(rio.Component):
                 ),
                 # The title and creation date
                 rio.Column(
-                    rio.Text(self.todo_item.title, justify="left"),
+                    rio.Text(
+                        self.todo_item.title,
+                        overflow="wrap",
+                    ),
                     rio.Text(
                         f"{self.todo_item.creation_time:%A, %x}",
-                        justify="left",
                         style="dim",
                     ),
+                    # Let the title grow to fill the available space
+                    grow_x=True,
                 ),
-                rio.Spacer(),
                 # The "delete" button
                 rio.IconButton(
                     "material/delete",
                     min_size=ICON_BUTTON_SIZE,
                     on_press=self.on_deleted,
+                    color="danger",
                 ),
                 spacing=0.5,
             ),
             color="background",
             elevate_on_hover=True,
             corner_radius=999,
+            margin_y=0.5,
         )
 

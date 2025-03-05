@@ -6,6 +6,7 @@ from pathlib import Path
 import rio
 
 from . import components as comps
+from . import data_models
 
 # Define a theme for Rio to use.
 #
