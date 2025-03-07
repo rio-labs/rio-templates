@@ -4,6 +4,7 @@ import typing as t
 from pathlib import Path
 
 import openai
+
 import rio
 
 from . import components as comps
@@ -32,8 +33,6 @@ def on_app_start(app: rio.App) -> None:
 
 
 
-
-
 # Define a theme for Rio to use.
 #
 # You can modify the colors here to adapt the appearance of your app or website.
@@ -44,7 +43,7 @@ def on_app_start(app: rio.App) -> None:
 theme = rio.Theme.from_colors(
     primary_color=rio.Color.from_hex("01dffdff"),
     secondary_color=rio.Color.from_hex("0083ffff"),
-    mode="dark",
+    mode="light",
 )
 
 

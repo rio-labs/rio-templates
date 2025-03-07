@@ -4,6 +4,7 @@ import typing as t
 from dataclasses import KW_ONLY, field
 
 import pandas as pd
+
 import rio
 
 from .. import components as comps

@@ -5,6 +5,7 @@ from dataclasses import KW_ONLY, field
 
 import pandas as pd
 import plotly.graph_objects as go
+
 import rio
 
 from .. import components as comps

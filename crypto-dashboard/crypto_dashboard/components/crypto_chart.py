@@ -5,6 +5,7 @@ from dataclasses import KW_ONLY, field
 
 import pandas as pd
 import plotly.express as px
+
 import rio
 
 from .. import components as comps

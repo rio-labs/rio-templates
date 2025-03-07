@@ -7,13 +7,13 @@ from pathlib import Path
 import rio
 
 from . import components as comps
-from . import data_models, persistence, theme
+from . import data_models, persistence
 
 
 async def on_app_start(app: rio.App) -> None:
     # Create a persistence instance. This class hides the gritty details of
     # database interaction from the app.
-    pers = persistence.Persistence()
+    pers = persistence.Persistence(Path("user.db"))
 
     # Now attach it to the session. This way, the persistence instance is
     # available to all components using `self.session[persistence.Persistence]`
@@ -66,6 +66,18 @@ async def on_session_start(rio_session: rio.Session) -> None:
 
 
 
+# Define a theme for Rio to use.
+#
+# You can modify the colors here to adapt the appearance of your app or website.
+# The most important parameters are listed, but more are available! You can find
+# them all in the docs
+#
+# https://rio.dev/docs/api/theme
+theme = rio.Theme.from_colors(
+    primary_color=rio.Color.from_hex("01dffdff"),
+    secondary_color=rio.Color.from_hex("0083ffff"),
+    mode="light",
+)
 
 
 # Create the Rio app
@@ -86,9 +98,7 @@ app = rio.App(
     # When you do this, make sure your component contains a `rio.PageView`
     # so the currently active page is still visible.
     build=comps.RootComponent,
-    # You can also provide a custom theme for the app. This theme will
-    # override the default theme for the app.
-    theme=theme.THEME,
+    theme=theme,
     assets_dir=Path(__file__).parent / "assets",
 )
 

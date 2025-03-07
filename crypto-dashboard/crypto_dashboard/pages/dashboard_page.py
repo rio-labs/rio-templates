@@ -6,8 +6,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import rio
 from pycoingecko import CoinGeckoAPI
+
+import rio
 
 from .. import components as comps
 from .. import constants, data_models
@@ -272,7 +273,6 @@ class DashboardPage(rio.Component):
             comps.CryptoChart(data=self.coin_data),
             comps.TransactionsOverview(),
             comps.PortfolioOverview(self.coin_data),
-            comps.PortfolioDistribution(data=self.coin_data),
             spacing=1,
         )
 

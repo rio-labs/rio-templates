@@ -25,8 +25,6 @@ def on_session_start(sess: rio.Session) -> None:
 
 
 
-
-
 # Create the Rio app
 app = rio.App(
     name='Crypto Dashboard',
@@ -41,7 +39,7 @@ app = rio.App(
     # so the currently active page is still visible.
     build=comps.RootComponent,
     # You can also provide a custom theme for the app. This theme will
-    # override the default theme for the app.
+    # override Rio's default.
     theme=theme.THEME,
     assets_dir=Path(__file__).parent / "assets",
 )

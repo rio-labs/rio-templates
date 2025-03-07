@@ -5,6 +5,7 @@ from dataclasses import KW_ONLY, field
 from datetime import datetime, timezone
 
 import openai
+
 import rio
 
 from .. import components as comps
