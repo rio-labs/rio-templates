@@ -57,6 +57,6 @@ class OutlinedNeutralButton(rio.Component):
             # Add stroke to create an outlined button
             stroke_width=0.1,
             stroke_color=theme.NEUTRAL_COLOR_BRIGHTER,
-            cursor=rio.CursorStyle.POINTER,  # Change cursor to pointer on hover
+            cursor="pointer",  # Change cursor to pointer on hover
         )
 
