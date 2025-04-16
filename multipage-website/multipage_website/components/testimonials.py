@@ -103,16 +103,14 @@ class Testimonials(rio.Component):
         return rio.Column(
             rio.Text(
                 "Testimonials",
-                style=rio.TextStyle(
-                    fill=self.session.theme.primary_color,
-                    font_weight="bold",
-                ),
+                fill=self.session.theme.primary_color,
+                font_weight="bold",
                 justify="center",
             ),
             # Section Title
             rio.Text(
                 "What our customers are saying.",
-                style=theme.BOLD_SECTION_TITEL_DESKTOP,
+                style=theme.BOLD_SECTION_TITLE_DESKTOP,
                 justify="center",
             ),
             # Brief description
@@ -120,7 +118,7 @@ class Testimonials(rio.Component):
                 "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
                 overflow="wrap",
                 justify="center",
-                style=rio.TextStyle(font_size=1.1),
+                font_size=1.1,
                 margin_bottom=4,
             ),
             # Testimonials Content
@@ -157,16 +155,15 @@ class Testimonials(rio.Component):
         return rio.Column(
             rio.Text(
                 "Testimonials",
-                style=rio.TextStyle(
-                    fill=self.session.theme.primary_color, font_weight="bold"
-                ),
+                fill=self.session.theme.primary_color,
+                font_weight="bold",
                 justify="center",
             ),
             # Section Title
             rio.Text(
                 "What our customers are saying.",
                 overflow="wrap",
-                style=theme.BOLD_SECTION_TITEL_MOBILE,
+                style=theme.BOLD_SECTION_TITLE_MOBILE,
                 justify="center",
             ),
             # Brief Description
@@ -174,7 +171,7 @@ class Testimonials(rio.Component):
                 "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
                 overflow="wrap",
                 justify="center",
-                style=rio.TextStyle(font_size=1),
+                font_size=1,
             ),
             # Testimonials Content
             content,

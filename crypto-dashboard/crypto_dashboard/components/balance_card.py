@@ -101,7 +101,8 @@ class BalanceCard(rio.Component):
         return rio.Column(
             rio.Text(
                 "My Balance",
-                style=rio.TextStyle(font_size=1.2, font_weight="bold"),
+                font_size=1.2,
+                font_weight="bold",
                 margin_top=1,
             ),
             rio.Spacer(),
@@ -112,7 +113,8 @@ class BalanceCard(rio.Component):
             rio.Row(
                 rio.Text(
                     f"$ {self.total_balance(idx=-1):,.2f}",
-                    style=rio.TextStyle(font_size=1.2, font_weight="bold"),
+                    font_size=1.2,
+                    font_weight="bold",
                 ),
                 comps.ColoredRectangle(self.percentage_difference_balance()),
                 spacing=1,
@@ -188,7 +190,8 @@ class BalanceCard(rio.Component):
             ),
             rio.Text(
                 f"$ {self.total_balance(idx=-1):,.2f}",
-                style=rio.TextStyle(font_size=1.2, font_weight="bold"),
+                font_size=1.2,
+                font_weight="bold",
             ),
             spacing=1,
             align_y=1,

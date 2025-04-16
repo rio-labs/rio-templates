@@ -34,10 +34,8 @@ class SubscribeInputButton(rio.Component):
             rio.Rectangle(
                 content=rio.Text(
                     "Subscribe",
-                    style=rio.TextStyle(
-                        font_size=0.75,
-                        fill=self.session.theme.background_color,
-                    ),
+                    font_size=0.75,
+                    fill=self.session.theme.background_color,
                     selectable=False,  # Make the text non-selectable
                     margin=0.5,
                 ),
