@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import typing as t
 from dataclasses import KW_ONLY, field
-from datetime import datetime, timezone
 
 import rio
 
@@ -32,13 +31,9 @@ class Navbar(rio.Component):
     async def on_logout(self) -> None:
         user_session = self.session[data_models.UserSession]
 
-        # Expire the session
+        # Delete the session from the database
         pers = self.session[persistence.Persistence]
-
-        await pers.update_session_duration(
-            user_session,
-            new_valid_until=datetime.now(tz=timezone.utc),
-        )
+        await pers.delete_session(user_session.id)
 
         # Detach everything from the session. This informs all components that
         # nobody is logged in.
