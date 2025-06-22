@@ -1,5 +1,5 @@
 from .navbar import Navbar
-from .user_sign_up_form import UserSignUpForm
+from .news_article import NewsArticle
 from .root_component import RootComponent
 from .testimonial import Testimonial
-from .news_article import NewsArticle
+from .user_sign_up_form import UserSignUpForm
