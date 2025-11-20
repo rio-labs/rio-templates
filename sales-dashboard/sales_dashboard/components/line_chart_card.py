@@ -3,7 +3,6 @@ from __future__ import annotations
 import typing as t
 from dataclasses import KW_ONLY, field
 
-import pandas as pd
 import plotly.graph_objects as go
 
 import rio
