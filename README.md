@@ -6,7 +6,7 @@
   <br>
   You <strong>won't need a single line of HTML, CSS, or
   JavaScript</strong> to create beautiful, modern apps.<br><br>
-  <a href="https://rio.dev/get-started?s=pl1">Tutorial</a> - <a href="https://rio.dev/examples?s=g8r">Examples</a> - <a href="https://discord.gg/7ejXaPwhyH">Discord</a> - <a href="https://rio.dev/docs?s=o1z">Docs</a> - <a href="https://github.com/rio-labs/rio">Source Code</a><br><br>
+  <a href="https://rio-ui.dev/get-started?s=pl1">Tutorial</a> - <a href="https://rio-ui.dev/examples?s=g8r">Examples</a> - <a href="https://discord.gg/7ejXaPwhyH">Discord</a> - <a href="https://rio-ui.dev/docs?s=o1z">Docs</a> - <a href="https://github.com/rio-labs/rio">Source Code</a><br><br>
 </p>
 
 # Rio Templates 🎨
@@ -15,7 +15,7 @@ Welcome to Rio's project templates. This repository contains all templates that
 ship directly with Rio. Each directory contains a single template. You'll find
 per-project README files in the individual directories as well.
 
-[Live versions are available on the Rio website](https://rio.dev/examples) 
+[Live versions are available on the Rio website](https://rio-ui.dev/examples)
 
 ## Usage 🎓
 
