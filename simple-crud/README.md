@@ -3,7 +3,7 @@
 This is a placeholder README for your project. Use it to describe what your
 project is about, to give new users a quick overview of what they can expect.
 
-_Simple crud_ was created using [Rio](https://rio.dev/), an easy to
+_Simple crud_ was created using [Rio](https://rio-ui.dev/), an easy to
 use app & website framework for Python.
 
 This project is based on the `Simple CRUD` template.

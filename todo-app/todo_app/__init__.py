@@ -14,7 +14,7 @@ from . import data_models
 # The most important parameters are listed, but more are available! You can find
 # them all in the docs
 #
-# https://rio.dev/docs/api/theme
+# https://rio-ui.dev/docs/api/theme
 theme = rio.Theme.from_colors(
     primary_color=rio.Color.from_hex("01dffdff"),
     secondary_color=rio.Color.from_hex("0083ffff"),
